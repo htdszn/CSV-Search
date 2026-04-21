@@ -29,15 +29,15 @@ When it runs, it prompts for a query:
 enter: <query>
 ```
 
-## Current behavior (important)
+## Current behavior
 
 Right now, the CSV filename is **hardcoded** at the bottom of `search.py`:
 
 ```python
-search("test.csv")
+search("businesses.csv")
 ```
 
-To search a different file, change `test.csv` to your CSV file path/name, for example:
+To search a different file, change `businesses.csv` to your CSV file path/name, for example:
 
 ```python
 search("my_data.csv")
